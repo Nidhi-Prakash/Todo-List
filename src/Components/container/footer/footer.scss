@@ -1,0 +1,76 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // border: 2px solid black;
+    // padding: 0 15px;
+    margin: 0px 10px;
+    position: relative;
+
+    p {
+        font-weight: 500;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .broom-icon {
+        height: 20px;
+        width: 20px;
+        position: relative;
+        top: 2px;
+    }
+
+    .clearall-btn {
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: 600;
+        transition: transform 0.5s;
+        cursor: pointer;
+        background-color: #feebf1;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .clearall-btn:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 1px black;
+    }
+}
+
+
+
+@media screen and (min-width:300px) and (max-width:499px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 10px;
+
+        p {
+            font-weight: 600;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .broom-icon {
+            height: 20px;
+            width: 20px;
+            position: relative;
+            top: 2px;
+        }
+
+        .clearall-btn {
+            border: 1px solid black;
+            border-radius: 5px;
+            font-size: medium;
+            font-weight: 600;
+            transition: transform 0.5s;
+            cursor: pointer;
+            background-color: #feebf1;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .clearall-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 1px black;
+        }
+    }
+}
